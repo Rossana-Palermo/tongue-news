@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tongue — Tech News</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__logo">Tongue</h1>
+        <p class="header__tagline">Tech news, straight to the point.</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <div id="news-list" class="news-list"></div>
+
+      <div id="load-more-container" class="load-more-container">
+        <button id="load-more-btn" class="load-more-btn" hidden>
+          Load more
+        </button>
+      </div>
+
+      <div id="error-container" class="error-container" hidden></div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Tongue &middot; Powered by <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a></p>
+    </footer>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
